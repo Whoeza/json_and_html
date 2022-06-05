@@ -27,9 +27,9 @@ Run this command from the package directory on your filesystem:
 
 ## Usage
 
-* Drop your JSON files in `./data/json/input`
+* Drop your JSON files in `src/json_and_html/data/json/input`
 * Run `json_and_html_core.py` as the main script
-* Retrieve your HTML tables from `./data/html/output`
+* Retrieve your HTML tables from `src/json_and_html/data/html/output`
 
 ## Community
 
