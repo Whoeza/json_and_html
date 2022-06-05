@@ -1,0 +1,24 @@
+{
+    "version": 0.1,
+    "nested object": {
+        "potentially-broken": "high",
+        "nerfed": true
+    },
+    "singleton": "some value",
+    "contents": {
+        "version": 1,
+        "authors": ["me", "the guys"],
+        "tests passed": {
+            "1.2": "failed",
+            "1.0": "pass",
+            "0.9": "pass"
+        },
+        "first_chapter": {
+            "blob_of_data": "values"
+        },
+        "second_chapter": {
+            "blob_of_data": "values",
+            "addendum_to_blob": "values"
+        }
+    }
+}

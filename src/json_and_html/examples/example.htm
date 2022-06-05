@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<style>
+table,
+table * {
+	border: solid black 1px;
+	border-collapse: collapse;
+}
+
+</style>
+</head>
+<body>
+<table>
+<thead><th>File: example 1.json</th></thead>
+<tbody>
+<tr><td>version</td><td>0.1</td></tr>
+<tr><td>nested object</td><td>
+	<table>
+	<tr><td>potentially broken</td><td>high</td></tr>
+	<tr><td>nerfed</td><td>true</td></tr>
+	</table>
+</td></tr>
+<tr><td>singleton</td><td>some value</td></tr>
+<tr><td>contents</td><td>
+	<table>
+	<tr><td>version</td><td>1</td></tr>
+	<tr><td>authors</td><td>["me", "the guys"]</td></tr>
+	<tr><td>tests passed</td><td>
+		<table>
+		<tr><td>1.2</td><td>failed</td></tr>
+		<tr><td>1.0</td><td>pass</td></tr>
+		<tr><td>0.9</td><td>pass</td></tr>
+		</table>
+	</td></tr>
+	<tr><td>first_chapter</td><td>
+		<table>
+		<tr><td>blob_of_data</td><td>values</td></tr>
+		</table>
+	</td></tr>
+	<tr><td>second_chapter</td><td>
+		<table>
+		<tr><td>blob_of_data</td><td>values</td></tr>
+		<tr><td>addendum_to_blob</td><td>values</td></tr>
+		</table>
+	</td></tr>
+	</table>
+</td></tr>
+</tbody>
+</table>
+</body>
+</html>

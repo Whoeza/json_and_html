@@ -1,0 +1,5 @@
+Algorithm 1: JSON -> HTML <table>
+  1- Nested JSON dictionary -> HTML <table> with nested <table>'s
+  2-   Flat JSON dictionary -> HTML <table> without nested <table>'s
+The same algorithm can take care of both cases.
+Check: ./example 1.json, ./example 1.json.htm
